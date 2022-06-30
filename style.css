@@ -556,3 +556,37 @@ a {
     color: #1977cc;
     text-decoration: none;
 }
+
+.img-fluid {
+    max-width: 100%;
+    height: auto;
+}
+
+/*img, svg {
+    vertical-align: middle;
+}
+*, ::after, ::before {
+    box-sizing: border-box;
+}
+.text-center {
+    text-align: center!important;
+}
+.g-4, .gy-4 {
+    --bs-gutter-y: 1.5rem;
+}
+
+@media (min-width: 992px)
+.order-lg-2 {
+    order: 2!important;
+}
+.text-center {
+    text-align: center!important;
+}
+.order-1 {
+    order: 1!important;
+}
+@media (min-width: 992px)
+.col-lg-4 {
+    flex: 0 0 auto;
+    width: 33.33333333%;
+} */
