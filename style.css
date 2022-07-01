@@ -43,18 +43,49 @@
 	color: #0d6efd;
 }
 
+.dropbtn {
+    display: inline-block;
+    color: white;
+    text-decoration: none;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+} 
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: white;
+    width: 200px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-content a:hover {
+    color: blue;
+}
+
 .btn {
 	font-family: arial;
 }
 
-.image {
-	height: 75vh;
-	width: auto;
+.steth {
+    background-image: url("img/hero-bg.jpg");
 }
 
 .image-content h1 {
 	font-size: 50px;
-	color: #1D3557;
+	color: hsl(215, 50%, 23%);
+    padding-top: 110px;
 }
 
 .image-content p {
@@ -64,6 +95,11 @@
 
 .image-content a {
 	font-size: 14px;
+    margin-bottom: 270px;
+}
+
+.choose-med {
+    margin: -170px 0% 70px 7%;
 }
 
 .body {
@@ -150,6 +186,11 @@
 	margin-left: -10%;	
 } */
 
+.print:hover {
+    background-color: blue;
+    color: white;
+}
+
 .Enim {
 	font-size: 30px;
 	color: #2C4964;
@@ -185,6 +226,13 @@
 .fingerprint {
 	margin: 8px 3% 0px 0%;
 	border: 1px solid #0d6efd;
+    border-radius: 50%;
+    color: #0d6efd;
+}
+
+.fingerprint:hover {
+    background-color: #0d6efd;
+    color: white;
 }
 
 .body7 {
@@ -213,6 +261,13 @@
 .gift {
 	margin: 8px 3% 0px 0%;
 	border: 1px solid #0d6efd;
+    border-radius: 50%;
+    color: #0d6efd;
+}
+
+.gift:hover {
+    background-color: #0d6efd;
+    color: white;
 }
 
 .body8 {
@@ -241,6 +296,13 @@
 .atom {
 	margin: 8px 3% 0px 0%;
 	border: 1px solid #0d6efd;
+    border-radius: 50%;
+    color: #0d6efd;
+}
+
+.atom:hover {
+    background-color: #0d6efd;
+    color: white;
 }
 
 #services h2::before { 
@@ -270,10 +332,14 @@
 	position: relative;
 }
 
-.r div:hover {
+/* .r:hover {
 	background-color: #0d6efd;
 	color: white;
 }
+
+.r h4:hover {
+    color: white;
+} */
 
 #Make-an-Appointment h2::before { 
     content: "";
@@ -510,15 +576,17 @@
 }
 
 .newsletter p {
-	font-size: 18px;
+	font-size: 20px;
 	margin-top: 15px;
+    color:  #6c757d;
 }
 
 .nil {
 	border: 1px solid powderblue;
 	background-color: white;
-	border-radius: 30px;
+	border-radius: 40px;
 	width: 100%;
+    padding: 11px 0%;
 }
 
 .back-to-top.active {
@@ -561,32 +629,3 @@ a {
     max-width: 100%;
     height: auto;
 }
-
-/*img, svg {
-    vertical-align: middle;
-}
-*, ::after, ::before {
-    box-sizing: border-box;
-}
-.text-center {
-    text-align: center!important;
-}
-.g-4, .gy-4 {
-    --bs-gutter-y: 1.5rem;
-}
-
-@media (min-width: 992px)
-.order-lg-2 {
-    order: 2!important;
-}
-.text-center {
-    text-align: center!important;
-}
-.order-1 {
-    order: 1!important;
-}
-@media (min-width: 992px)
-.col-lg-4 {
-    flex: 0 0 auto;
-    width: 33.33333333%;
-} */

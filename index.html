@@ -51,7 +51,17 @@
 					<li class="navbar-item px-1">
 						<a href="#doctors" class="nav-link unvisited">Doctors</a>
 					</li>
-					<li class="navbar-item px-1">
+					<li class="dropdown navbar-item px-1">
+						<a href="#" class="dropbtn nav-link unvisited">Drop Down <i class="fas fa-angle-down"></i></a>
+						<div class="dropdown-content">
+							<a href="#">Drop Down 1</a>
+							<a href="#" class="dropbtn">Deep Drop Down <i class="fas fa-angle-right ps-2"></i></a>
+							<a href="#">Drop Down 2</a>
+							<a href="#">Drop Down 3</a>
+							<a href="#">Drop Down 4</a>
+						</div>
+					</li>
+					<!-- <li class="navbar-item px-1">
 						<a href="#" class="nav-link unvisited dropdown-toggle" data-bs-toggle="dropdown">Drop Down</a>
 						<ul class="dropdown-menu">
 							<li><a class="dropdown-item" href="#">Drop Down 1</a></li>
@@ -68,7 +78,7 @@
 							<li><a class="dropdown-item" href="#">Drop Down 3</a></li>
 							<li><a class="dropdown-item" href="#">Drop Down 4</a></li>
 						</ul>
-					</li>
+					</li> -->
 					<li class="navbar-item px-1">
 						<a href="#contact" class="nav-link unvisited">Contact</a>
 					</li>
@@ -78,65 +88,65 @@
 		</nav>
 	</div>
 	<div id="home">
-		<div class="card img-fluid" style="width: 100vw">
-			<img class="card-img-top image" src="img/hero-bg.jpg" style="width: 100%;">
-			<div class="clearfix container image-content" style="margin-top: -380px;">
+		<div class="steth">
+			<!-- <img class="card-img-top image" src="img/hero-bg.jpg" style="width: 100%;">-->
+			<div class="clearfix container image-content">
 				<h1><strong>WELCOME TO MEDILAB</strong></h1>
 				<p>We are team of talented designers making websites with Bootstrap</p>
 				<a href="#" class="btn btn-primary rounded-pill text-white" style="padding: 10px 3%;">GET STARTED</a>
-				<div class="container" style="margin: 75px -2%;">
+			</div>	
+		</div>
+		<div class="container choose-med">
+			<div class="row">
+				<div class="col-lg-4">
+					<div class="card-body bg-primary body">
+						<h2 class="card-title m-2">Why Choose Medilab?</h2>
+						<p class="card-text m-2 pt-3">
+							Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+							sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+							Duis aute irure dolor in reprehenderit Asperiores dolores sed et.
+							Tenetur quia eos. Autem tempore quibusdam vel necessitatibus optio ad corporis.
+						</p>
+						<a href="#" class="btn btn-primary rounded-pill m-3 px-5">Learn More<i
+								class="fas fa-angle-right ps-2"></i>
+						</a>
+					</div>
+				</div>
+				<div class="col-lg-8">
 					<div class="row">
-						<div class="col-lg-4">
-							<div class="card-body bg-primary body">
-								<h2 class="card-title m-2">Why Choose Medilab?</h2>
-								<p class="card-text m-2 pt-3">
-									Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-									sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-									Duis aute irure dolor in reprehenderit Asperiores dolores sed et.
-									Tenetur quia eos. Autem tempore quibusdam vel necessitatibus optio ad corporis.
+						<div class="col-xl-4">
+							<div class="card-body text-center bg-white shadow body2"
+								style="margin: 50px 0% 0px 4%;">
+								<i class="fas fa-folder fa-2x p-5 folder"></i>
+								<h3 class="card-title mb-4" style="margin-top: -9%">Corporis voluptates sit
+								</h3>
+								<p class="card-text m-2 pb-3">
+									Consequuntur sunt aut quasi enim aliquam quae harum pariatur laboris nisi ut
+									aliquip
 								</p>
-								<a href="#" class="btn btn-primary rounded-pill m-3 px-5">Learn More<i
-										class="fas fa-angle-right ps-2"></i>
-								</a>
 							</div>
 						</div>
-						<div class="col-lg-8">
-							<div class="row">
-								<div class="col-lg-4">
-									<div class="card-body text-center bg-white shadow body2"
-										style="margin: 50px 0% 0px 4%;">
-										<i class="fas fa-folder fa-2x p-5 folder"></i>
-										<h3 class="card-title mb-4" style="margin-top: -9%">Corporis voluptates sit
-										</h3>
-										<p class="card-text m-2 pb-3">
-											Consequuntur sunt aut quasi enim aliquam quae harum pariatur laboris nisi ut
-											aliquip
-										</p>
-									</div>
-								</div>
-								<div class="col-lg-4">
-									<div class="card-body text-center bg-white shadow body3"
-										style="margin: 50px 0% 0px 2%;">
-										<i class="fas fa-cube fa-2x p-5 cube"></i>
-										<h3 class="card-title mb-4" style="margin-top: -9%">Ullamco laboris ladore pan
-										</h3>
-										<p class="card-text m-2 pb-3">
-											Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia
-											deserunt
-										</p>
-									</div>
-								</div>
-								<div class="col-lg-4">
-									<div class="card-body text-center bg-white shadow body4"
-										style="margin: 50px 0% 0px 5%;">
-										<i class="fas fa-images fa-2x p-5 images"></i>
-										<h3 class="card-title mb-4" style="margin-top: -9%">Labore consequatur</h3>
-										<p class="card-text m-2 pb-3">
-											Aut suscipit aut cum nemo deleniti aut omnis. Doloribus ut maiores omnis
-											facere
-										</p>
-									</div>
-								</div>
+						<div class="col-xl-4">
+							<div class="card-body text-center bg-white shadow body3"
+								style="margin: 50px 0% 0px 2%;">
+								<i class="fas fa-cube fa-2x p-5 cube"></i>
+								<h3 class="card-title mb-4" style="margin-top: -9%">Ullamco laboris ladore pan
+								</h3>
+								<p class="card-text m-2 pb-3">
+									Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia
+									deserunt
+								</p>
+							</div>
+						</div>
+						<div class="col-xl-4">
+							<div class="card-body text-center bg-white shadow body4"
+								style="margin: 50px 0% 0px 5%;">
+								<i class="fas fa-images fa-2x p-5 images"></i>
+								<h3 class="card-title mb-4" style="margin-top: -9%">Labore consequatur</h3>
+								<p class="card-text m-2 pb-3">
+									Aut suscipit aut cum nemo deleniti aut omnis. Doloribus ut maiores omnis
+									facere
+								</p>
 							</div>
 						</div>
 					</div>
@@ -148,8 +158,8 @@
 		<div class="row">
 			<div class="col-lg-6">
 				<div class="row">
-					<div class="col-md-12">
-						<img src="img/about.jpg" style="height: 90vh; width: 42vw;">
+					<div class="col-xl-5 d-flex justify-content-center position-relative">
+						<img src="img/about.jpg"> 
 					</div>
 				</div>
 			</div>
@@ -166,8 +176,7 @@
 							</p>
 						</div>
 						<div class="card-body body6">
-							<i class="fas fa-fingerprint fa-2x fingerprint rounded-circle w-20 d-block m-3 p-3 text-blue bg-white"
-								style="color: #0d6efd"></i>
+							<i class="fas fa-fingerprint fa-2x fingerprint w-20 d-block m-3 p-3"></i>
 							<div>
 								<h3 class="card-title Lorem">
 									<a href="#">Lorem Ipsum</a>
@@ -179,8 +188,7 @@
 							</div>
 						</div>
 						<div class="card-body body7">
-							<i class="fas fa-gift fa-2x gift rounded-circle w-20 d-block m-3 p-3 text-blue bg-white"
-								style="color: #0d6efd"></i>
+							<i class="fas fa-gift fa-2x gift w-20 d-block m-3 p-3"></i>
 							<div>
 								<h3 class="card-title Nemo">
 									<a href="#">Nemo Enim</a>
@@ -192,8 +200,7 @@
 							</div>
 						</div>
 						<div class="card-body body8">
-							<i class="fas fa-atom fa-2x atom rounded-circle d-block w-20 m-3 p-3 text-blue bg-white"
-								style="color: #0d6efd"></i>
+							<i class="fas fa-atom fa-2x atom d-block w-20 m-3 p-3"></i>
 							<div>
 								<h3 class="card-title Dine">
 									<a href="#">Dine Pad</a>
@@ -215,7 +222,7 @@
 				<div class="card border-0 text-center m-2">
 					<i class="fas fa-user-md rounded-circle w-20 fa-2x d-block mx-auto p-2 text-white bg-primary"
 						style="margin-top: -30px;"></i>
-					<span data-purecounter-start="0" data-purecounter-end="85" data-purecounter-duration="1" class="purecounter" style="font-size: 37px; color: #2C4964; font-family: Verdana, Geneva, Tahoma, sans-serif;"></span>
+					<span data-purecounter-start="0" data-purecounter-end="85" data-purecounter-duration="2" class="purecounter" style="font-size: 37px; color: #2C4964; font-family: Verdana, Geneva, Tahoma, sans-serif;"></span>
 					<p>Doctors</p>
 				</div>
 			</div>
@@ -223,7 +230,7 @@
 				<div class="card border-0 text-center m-2">
 					<i class="fas fa-building rounded-circle w-20 fa-2x d-block mx-auto p-2 text-white bg-primary"
 						style="margin-top: -30px;"></i>
-					<span data-purecounter-start="0" data-purecounter-end="18" data-purecounter-duration="1" class="purecounter" style="font-size: 37px; color: #2C4964; font-family: Verdana, Geneva, Tahoma, sans-serif;"></span>
+					<span data-purecounter-start="0" data-purecounter-end="18" data-purecounter-duration="2" class="purecounter" style="font-size: 37px; color: #2C4964; font-family: Verdana, Geneva, Tahoma, sans-serif;"></span>
 					<p>Departments</p>
 				</div>
 			</div>
@@ -231,7 +238,7 @@
 				<div class="card border-0 text-center m-2">
 					<i class="fas fa-flask rounded-circle w-20 fa-2x d-block mx-auto p-2 text-white bg-primary"
 						style="margin-top: -30px;"></i>
-					<span data-purecounter-start="0" data-purecounter-end="12" data-purecounter-duration="1" class="purecounter" style="font-size: 37px; color: #2C4964; font-family: Verdana, Geneva, Tahoma, sans-serif;"></span>
+					<span data-purecounter-start="0" data-purecounter-end="12" data-purecounter-duration="2" class="purecounter" style="font-size: 37px; color: #2C4964; font-family: Verdana, Geneva, Tahoma, sans-serif;"></span>
 					<p>Research Labs</p>
 				</div>
 			</div>
@@ -239,7 +246,7 @@
 				<div class="card border-0 text-center m-2">
 					<i class="fas fa-award rounded-circle w-20 fa-2x d-block mx-auto p-2 text-white bg-primary"
 						style="margin-top: -30px;"></i>
-					<span data-purecounter-start="0" data-purecounter-end="150" data-purecounter-duration="1" class="purecounter" style="font-size: 37px; color: #2C4964; font-family: Verdana, Geneva, Tahoma, sans-serif;"></span>
+					<span data-purecounter-start="0" data-purecounter-end="150" data-purecounter-duration="2" class="purecounter" style="font-size: 37px; color: #2C4964; font-family: Verdana, Geneva, Tahoma, sans-serif;"></span>
 					<p>Awards</p>
 				</div>
 			</div>
@@ -259,30 +266,30 @@
 	</div>
 	<div class="bg-white" style="margin-top: -75px;">
 		<div class="row m-5 p-5">
-			<div class="col-md-4">
+			<div class="col-lg-4">
 				<div class="card text-center m-2 px-4">
 					<i class="fas fa-heartbeat fa-2x d-block mx-auto p-3 text-white bg-primary"
-						style="margin: 80px 0% 10px 0%; border-radius: 5px;"></i>
+						style="margin: 80px 0% 10px 0%; box-shadow: -8px -9px lightblue; border-radius: 5px;"></i>
 					<a href="#" style="text-decoration: none; color: #2C4964;">
 						<h4>Lorem Ipsum</h4>
 					</a>
 					<p class="pb-5">Voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi</p>
 				</div>
 			</div>
-			<div class="col-md-4">
+			<div class="col-lg-4">
 				<div class="card text-center m-2 px-4">
 					<i class="fas fa-pills  fa-2x mx-auto p-3 text-white bg-primary"
-						style="margin: 80px 0% 10px 0%; border-radius: 5px;"></i>
+						style="margin: 80px 0% 10px 0%; box-shadow: -8px -9px lightblue; border-radius: 5px;"></i>
 					<a href="#" style="text-decoration: none; color: #2C4964;">
 						<h4 style="color: #2C4964;">Sed ut perspiciatis</h4>
 					</a>
 					<p class="pb-5">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore</p>
 				</div>
 			</div>
-			<div class="col-md-4">
+			<div class="col-lg-4">
 				<div class="card text-center m-2 px-4">
 					<i class="fas fa-hospital fa-2x mx-auto p-3 text-white bg-primary"
-						style="margin: 80px 0% 10px 0%; border-radius: 5px;"></i>
+						style="margin: 80px 0% 10px 0%; box-shadow: -8px -9px lightblue; border-radius: 5px;"></i>
 					<a href="#" style="text-decoration: none; color: #2C4964;">
 						<h4>Magni Dolores</h4>
 					</a>
@@ -293,30 +300,30 @@
 	</div>
 	<div class="bg-white" style="margin-top: -10%;">
 		<div class="row m-5 p-5">
-			<div class="col-md-4">
+			<div class="col-lg-4">
 				<div class="card text-center m-2 px-4">
 					<i class="fas fa-dna fa-2x d-block mx-auto p-3 text-white bg-primary"
-						style="margin: 80px 0% 10px 0%; border-radius: 5px;"></i>
+						style="margin: 80px 0% 10px 0%; box-shadow: -8px -9px lightblue; border-radius: 5px;"></i>
 					<a href="#" style="text-decoration: none; color: #2C4964;">
 						<h4>Nemo Enim</h4>
 					</a>
 					<p class="pb-5">At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis</p>
 				</div>
 			</div>
-			<div class="col-md-4">
+			<div class="col-lg-4">
 				<div class="card text-center m-2 px-3">
 					<i class="fas fa-wheelchair  fa-2x mx-auto p-3 text-white bg-primary"
-						style="margin: 80px 0% 10px 0%; border-radius: 5px;"></i>
+						style="margin: 80px 0% 10px 0%; box-shadow: -8px -9px lightblue; border-radius: 5px;"></i>
 					<a href="#" style="text-decoration: none; color: #2C4964;">
 						<h4>Dele cardo</h4>
 					</a>
 					<p class="pb-5">Quis consequatur saepe eligendi voluptatem consequatur dolor consequuntu</p>
 				</div>
 			</div>
-			<div class="col-md-4 r">
-				<div class="card text-center m-2 px-4">
+			<div class="col-lg-4">
+				<div class="card text-center m-2 px-4">					
 					<i class="fas fa-notes-medical fa-2x mx-auto p-3 text-white bg-primary"
-						style="margin: 80px 0% 10px 0%; border-radius: 5px;"></i>
+						style="margin: 80px 0% 10px 0%; box-shadow: -8px -9px lightblue; border-radius: 5px;"></i>
 					<a href="#" style="text-decoration: none; color: #2C4964;">
 						<h4>Divera don</h4>
 					</a>
@@ -1033,7 +1040,7 @@
 	</div>
 	<div class="row p-4 mt-5">
 		<div class="col-md-3">
-			<h2>Medilab</h2>
+			<h3 style="font-family: sans-serif;">Medilab</h3>
 			<p class="text-secondary">A108 Adam Street New York, NY 535022 United States</p>
 			<p class="text-secondary" style="margin-top: 30px;"><strong>Phone:</strong> +1 5589 55488 55</p>
 			<p class="text-secondary" style="margin-top: -15px;"><strong>Email:</strong> info@example.com</p>
@@ -1060,12 +1067,18 @@
 		</div>
 		<div class="col-md-4 newsletter">
 			<h5>Join Our Newsletter</h5>
-			<p>Tamen quem nulla quae legam multos aute sint culpa legam noster magna</p>                                      
-			<div class="nil">	
-				<button type="button" class="btn btn-primary rounded-pill d-block" href="#"
-						style="padding: 8px 5%; margin-left: 75%; font-size: 18px; font-family: arial;">Subscribe</button>	
-			</div>			
+			<p>Tamen quem nulla quae legam multos aute sint culpa legam noster magna</p>     
+			<form action method="post" class="d-flex mt-3">
+				<div class="nil">
+					<input type="email" class="border-0 px-5" name="email" style="margin: 0px 0px 0px 5px;">
+				</div>
+				<input type="submit" class="bg-primary border-0 px-4 text-white" style="border-radius: 40px;  font-size: 21px; margin-left: -60px; font-family: arial;" value="Subscribe">
+		   </form>                                 
 		</div>
+		<!-- <div class="nil">	
+			<button type="button" class="btn btn-primary rounded-pill d-block" href="#"
+					style="padding: 8px 5%; margin-left: 75%; font-size: 18px; font-family: arial;">Subscribe</button>	
+		</div>			 -->
 	</div>
 	<div class="d-md-flex mt-5 container-fluid pt-4 bg-light">
 		<div class="me-md-auto text-center text-md-start">
