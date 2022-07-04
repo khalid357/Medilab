@@ -37,38 +37,40 @@
 			<div class="collapse navbar-collapse" id="collapsibleNavbar">
 				<ul class="navbar-nav ms-auto">
 					<li class="navbar-item px-1">
-						<a href="#home" class="nav-link unvisited">Home</a>
+						<a href="#home" class="nav-link scrollto unvisited">Home</a>
 					</li>
 					<li class="navbar-item px-1">
-						<a href="#about" class="nav-link unvisited">About</a>
+						<a href="#about" class="nav-link  scrollto unvisited">About</a>
 					</li>
 					<li class="navbar-item px-1">
-						<a href="#services" class="nav-link unvisited">Services</a>
+						<a href="#services" class="nav-link scrollto unvisited">Services</a>
 					</li>
 					<li class="navbar-item px-1">
-						<a href="#departments" class="nav-link unvisited">Departments</a>
+						<a href="#departments" class="nav-link scrollto unvisited">Departments</a>
 					</li>
 					<li class="navbar-item px-1">
-						<a href="#doctors" class="nav-link unvisited">Doctors</a>
+						<a href="#doctors" class="nav-link scrollto unvisited">Doctors</a>
 					</li>
 					<li class="dropdown navbar-item px-1">
-						<a href="#" class="nav-link unvisited">Drop Down <i class="fas fa-angle-down"></i></a>
-						<div class="dropdown-content">
-							<a href="#">Drop Down 1</a>
-							<a href="#" class="dropbtn2">Deep Drop Down <i class="fas fa-angle-right ps-2"></i></a>
-								<div class="dropdown-content2">
-									<a href="#">Drop Down 1</a>
-									<a href="#">Drop Down 2</a>
-									<a href="#">Drop Down 3</a>
-									<a href="#">Drop Down 4</a>
-								</div>
-							<a href="#">Drop Down 2</a>
-							<a href="#">Drop Down 3</a>
-							<a href="#">Drop Down 4</a>
-						</div>
-					</li>
+						<a href="#" class="nav-link scrollto unvisited">Drop Down<i class="fas fa-angle-down ps-2"></i></a>
+							<ul>
+						  		<li class="pt-3"><a href="#">Drop Down 1</a></li>
+						  		<li class="dropdown pt-3"><a href="#"><span>Deep Drop Down</span> <i class="fas fa-angle-right ps-2"></i></a>
+									<ul>
+										<li class="pt-3"><a href="#">Deep Drop Down 1</a></li>
+										<li class="pt-3"><a href="#">Deep Drop Down 2</a></li>
+										<li class="pt-3"><a href="#">Deep Drop Down 3</a></li>
+										<li class="pt-3"><a href="#">Deep Drop Down 4</a></li>
+										<li class="py-3"><a href="#">Deep Drop Down 5</a></li>
+									</ul>
+						  		</li>
+								<li class="pt-3"><a href="#">Drop Down 2</a></li>
+								<li class="pt-3"><a href="#">Drop Down 3</a></li>
+								<li class="py-3"><a href="#">Drop Down 4</a></li>
+							</ul>
+					  </li>
 					<!-- <li class="navbar-item px-1">
-						<a href="#" class="nav-link unvisited dropdown-toggle" data-bs-toggle="dropdown">Drop Down</a>
+						<a href="#" class="nav-link scrollto unvisited dropdown-toggle" data-bs-toggle="dropdown">Drop Down</a>
 						<ul class="dropdown-menu">
 							<li><a class="dropdown-item" href="#">Drop Down 1</a></li>
 							<li><a class="dropdown-item dropdown-toggle" data-bs-toggle="dropdown" href="#">Deep Drop
@@ -86,73 +88,76 @@
 						</ul>
 					</li> -->
 					<li class="navbar-item px-1">
-						<a href="#contact" class="nav-link unvisited">Contact</a>
+						<a href="#contact" class="nav-link scrollto unvisited">Contact</a>
 					</li>
 				</ul>
 			</div>
-			<a href="#Make-an-Appointment"><button type="button" class="btn btn-primary btn-sm p-2 rounded-pill">Make an Appointment</button></a>
+			<a href="#Make-an-Appointment"><button type="button" class="btn btn-primary scrollto btn-sm p-2 rounded-pill">Make an Appointment</button></a>
 		</nav>
 	</div>
 	<div id="home">
 		<div class="steth">
-			<!-- <img class="card-img-top image" src="img/hero-bg.jpg" style="width: 100%;">-->
 			<div class="clearfix container image-content">
 				<h1><strong>WELCOME TO MEDILAB</strong></h1>
 				<p>We are team of talented designers making websites with Bootstrap</p>
 				<a href="#" class="btn btn-primary rounded-pill text-white" style="padding: 10px 3%;">GET STARTED</a>
 			</div>	
 		</div>
-		<div class="container choose-med">
-			<div class="row">
-				<div class="col-lg-4">
-					<div class="card-body bg-primary body">
-						<h2 class="card-title m-2">Why Choose Medilab?</h2>
-						<p class="card-text m-2 pt-3">
-							Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-							sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-							Duis aute irure dolor in reprehenderit Asperiores dolores sed et.
-							Tenetur quia eos. Autem tempore quibusdam vel necessitatibus optio ad corporis.
-						</p>
-						<a href="#" class="btn btn-primary rounded-pill m-3 px-5">Learn More<i
-								class="fas fa-angle-right ps-2"></i>
-						</a>
+		<div class="choose-med">
+			<div class="container">
+				<div class="row">
+					<div class="col-lg-4 d-flex align-items-stretch">
+						<div class="card-body bg-primary body">
+							<h2 class="card-title m-2">Why Choose Medilab?</h2>
+							<p class="card-text m-2 pt-3">
+								Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+								sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+								Duis aute irure dolor in reprehenderit Asperiores dolores sed et.
+								Tenetur quia eos. Autem tempore quibusdam vel necessitatibus optio ad corporis.
+							</p>
+							<div>
+								<a href="#" class="btn btn-primary rounded-pill m-3">Learn More<i
+										class="fas fa-angle-right ps-2"></i>
+								</a>
+							</div>
+						</div>
 					</div>
-				</div>
-				<div class="col-lg-8">
-					<div class="row">
-						<div class="col-xl-4">
-							<div class="card-body text-center bg-white shadow body2"
-								style="margin: 50px 0% 0px 4%;">
-								<i class="fas fa-folder fa-2x p-5 folder"></i>
-								<h3 class="card-title mb-4" style="margin-top: -9%">Corporis voluptates sit
-								</h3>
-								<p class="card-text m-2 pb-3">
-									Consequuntur sunt aut quasi enim aliquam quae harum pariatur laboris nisi ut
-									aliquip
-								</p>
+					<div class="col-lg-8 d-flex align-items-stretch">
+						<div class="row">
+							<div class="col-xl-4 align-items-stretch">
+								<div class="card-body text-center bg-white shadow body2"
+									style="margin: 50px 0% 0px 4%;">
+									<i class="fas fa-folder fa-2x p-5 folder"></i>
+									<h3 class="card-title mb-4" style="margin-top: -9%">Corporis<br> voluptates sit
+									</h3>
+									<p class="card-text m-2 pb-3">
+										Consequuntur sunt aut quasi enim aliquam quae harum pariatur laboris nisi ut
+										aliquip
+									</p>
+								</div>
 							</div>
-						</div>
-						<div class="col-xl-4">
-							<div class="card-body text-center bg-white shadow body3"
-								style="margin: 50px 0% 0px 2%;">
-								<i class="fas fa-cube fa-2x p-5 cube"></i>
-								<h3 class="card-title mb-4" style="margin-top: -9%">Ullamco laboris ladore pan
-								</h3>
-								<p class="card-text m-2 pb-3">
-									Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia
-									deserunt
-								</p>
+							<div class="col-xl-4 align-items-stretch">
+								<div class="card-body text-center bg-white shadow body3"
+									style="margin: 50px 0% 0px 2%;">
+									<i class="fas fa-cube fa-2x p-5 cube"></i>
+									<h3 class="card-title mb-4" style="margin-top: -9%">Ullamco laboris ladore pan
+									</h3>
+									<p class="card-text m-2 pb-3">
+										Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia
+										deserunt
+									</p>
+								</div>
 							</div>
-						</div>
-						<div class="col-xl-4">
-							<div class="card-body text-center bg-white shadow body4"
-								style="margin: 50px 0% 0px 5%;">
-								<i class="fas fa-images fa-2x p-5 images"></i>
-								<h3 class="card-title mb-4" style="margin-top: -9%">Labore consequatur</h3>
-								<p class="card-text m-2 pb-3">
-									Aut suscipit aut cum nemo deleniti aut omnis. Doloribus ut maiores omnis
-									facere
-								</p>
+							<div class="col-xl-4 align-items-stretch">
+								<div class="card-body text-center bg-white shadow body4"
+									style="margin: 50px 0% 0px 5%;">
+									<i class="fas fa-images fa-2x p-5 images"></i>
+									<h3 class="card-title mb-4" style="margin-top: -9%">Labore consequatur</h3>
+									<p class="card-text m-2 pb-3">
+										Aut suscipit aut cum nemo deleniti aut omnis. Doloribus ut maiores omnis
+										facere
+									</p>
+								</div>
 							</div>
 						</div>
 					</div>
@@ -160,16 +165,16 @@
 			</div>
 		</div>
 	</div>
-	<div id="about">
+	<div id="about" class="about">
 		<div class="row">
-			<div class="col-lg-6">
+			<div class="col-lg-5">		
 				<div class="row">
-					<div class="">
-						<img src="img/about.jpg" style="width: 100%; height: 95vh"> 
+					<div class="video-box d-flex justify-content-center align-items-stretch position-relative">
+					  <a href="https://www.youtube.com/watch?v=jDDaplaOz7Q" class="glightbox play-btn mb-4"></a>
 					</div>
-				</div>
+				</div>	
 			</div>
-			<div class="col-lg-6 mt-4">
+			<div class="col-lg-7 mt-5">
 				<div class="row">
 					<div class="col-lg-12">
 						<div class="card-body body5">
@@ -272,68 +277,58 @@
 	</div>
 	<div class="bg-white" style="margin-top: -75px;">
 		<div class="row m-5 p-5">
-			<div class="col-lg-4">
-				<div class="card text-center m-2 px-4">
-					<i class="fas fa-heartbeat fa-2x d-block mx-auto p-3 text-white bg-primary"
-						style="margin: 80px 0% 10px 0%; box-shadow: -8px -9px lightblue; border-radius: 5px;"></i>
-					<a href="#" style="text-decoration: none; color: #2C4964;">
-						<h4>Lorem Ipsum</h4>
-					</a>
-					<p class="pb-5">Voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi</p>
+			<div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4">
+				<div class="icon-box">
+				  <div class="icon"><i class="fas fa-heartbeat"></i></div>
+				  <h4><a href="">Lorem Ipsum</a></h4>
+				  <p>Voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi</p>
 				</div>
 			</div>
-			<div class="col-lg-4">
-				<div class="card text-center m-2 px-4">
-					<i class="fas fa-pills  fa-2x mx-auto p-3 text-white bg-primary"
-						style="margin: 80px 0% 10px 0%; box-shadow: -8px -9px lightblue; border-radius: 5px;"></i>
-					<a href="#" style="text-decoration: none; color: #2C4964;">
-						<h4 style="color: #2C4964;">Sed ut perspiciatis</h4>
-					</a>
-					<p class="pb-5">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore</p>
+			<div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4">
+				<div class="icon-box">
+				  <div class="icon"><i class="fas fa-pills"></i></div>
+				  <h4><a href="">Sed ut perspiciati</a></h4>
+				  <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore</p>
 				</div>
 			</div>
-			<div class="col-lg-4">
-				<div class="card text-center m-2 px-4">
-					<i class="fas fa-hospital fa-2x mx-auto p-3 text-white bg-primary"
-						style="margin: 80px 0% 10px 0%; box-shadow: -8px -9px lightblue; border-radius: 5px;"></i>
-					<a href="#" style="text-decoration: none; color: #2C4964;">
-						<h4>Magni Dolores</h4>
-					</a>
-					<p class="pb-5">Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia</p>
+			<div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4">
+				<div class="icon-box">
+				  <div class="icon"><i class="fas fa-hospital"></i></div>
+				  <h4><a href="">Magni Dolores</a></h4>
+				  <p>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia</p>
 				</div>
 			</div>
 		</div>
 	</div>
 	<div class="bg-white" style="margin-top: -10%;">
 		<div class="row m-5 p-5">
-			<div class="col-lg-4">
-				<div class="card text-center m-2 px-4">
-					<i class="fas fa-dna fa-2x d-block mx-auto p-3 text-white bg-primary"
-						style="margin: 80px 0% 10px 0%; box-shadow: -8px -9px lightblue; border-radius: 5px;"></i>
-					<a href="#" style="text-decoration: none; color: #2C4964;">
-						<h4>Nemo Enim</h4>
-					</a>
-					<p class="pb-5">At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis</p>
+			<div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4">
+				<div class="icon-box">
+				  <div class="icon"><i class="fas fa-dna"></i></div>
+				  <h4><a href="">Nemo Enim</a></h4>
+				  <p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis</p>
 				</div>
 			</div>
-			<div class="col-lg-4">
-				<div class="card text-center m-2 px-3">
-					<i class="fas fa-wheelchair  fa-2x mx-auto p-3 text-white bg-primary"
-						style="margin: 80px 0% 10px 0%; box-shadow: -8px -9px lightblue; border-radius: 5px;"></i>
-					<a href="#" style="text-decoration: none; color: #2C4964;">
-						<h4>Dele cardo</h4>
-					</a>
-					<p class="pb-5">Quis consequatur saepe eligendi voluptatem consequatur dolor consequuntu</p>
+			<div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4">
+				<div class="icon-box">
+				  <div class="icon"><i class="fas fa-wheelchair"></i></div>
+				  <h4><a href="">Dele cardo</a></h4>
+				  <p>Quis consequatur saepe eligendi voluptatem consequatur dolor consequuntur</p>
 				</div>
 			</div>
-			<div class="col-lg-4">
-				<div class="card text-center m-2 px-4">					
-					<i class="fas fa-notes-medical fa-2x mx-auto p-3 text-white bg-primary"
+			<!-- <div class="col-lg-4 col-md-6 d-flex align-items-stretch">
+				<div class="card text-center m-2 px-4 icon-box"></div>					
+					<i class="fas fa-notes-medical fa-2x mx-auto p-3 icon text-white bg-primary"
 						style="margin: 80px 0% 10px 0%; box-shadow: -8px -9px lightblue; border-radius: 5px;"></i>
-					<a href="#" style="text-decoration: none; color: #2C4964;">
-						<h4>Divera don</h4>
-					</a>
+					<h4><a href="#" style="text-decoration: none; color: #2C4964;">Divera don</a></h4>
 					<p class="pb-5">Modi nostrum vel laborum. Porro fugit error sit minus sapiente sit aspernatur</p>
+				</div>
+			</div> -->
+			<div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4">
+				<div class="icon-box">
+				  <div class="icon"><i class="fas fa-notes-medical"></i></div>
+				  <h4><a href="">Divera don</a></h4>
+				  <p>Modi nostrum vel laborum. Porro fugit error sit minus sapiente sit aspernatur</p>
 				</div>
 			</div>
 		</div>
