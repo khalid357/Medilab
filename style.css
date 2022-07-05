@@ -103,6 +103,7 @@
     height: 90vh;
     background-size: cover;
     z-index: -1;
+    position: relative;
     /* opacity:1; */
 }
 
@@ -228,6 +229,7 @@
     background: url("../img/about.jpg") center center no-repeat;
     background-size: cover;
     min-height: 640px;
+    position: relative;
 }
 
 .play-btn {
@@ -445,6 +447,7 @@
     width: 40px;
     position: absolute;
 }
+
 .title {
 	position: relative;
 }
@@ -624,6 +627,22 @@
 	color: #2C4964;
 }
 
+.pic img {
+    transition: ease-in-out 0.3s;
+}
+
+.pic a img {
+    transition: ease-in-out 0.3s;
+}
+
+.member:hover img {
+    transform: scale(1.1);
+}
+
+.social a:hover {
+    background: #1977cc;
+  }
+
 .FAQ h2::before { 
     content: "";
     height: 1px;
@@ -721,9 +740,31 @@
 	position: relative;
 }
 
-.map, .env, .mob {
+.map, .env {
 	color: #1977CC;
 	font-size: 21px;	
+}
+
+.mob, .map, .env {
+    border: 1px solid #f8f9fa;
+    background: #f8f9fa;
+    font-size: 21px;
+    color: #1977CC;
+}
+
+.mob:hover {
+    background: #1977CC;
+    color: white;
+}
+
+.env:hover {
+    background: #1977CC;
+    color: white;
+}
+
+.map:hover {
+    background: #1977CC;
+    color: white;
 }
 
 .con h4 {
