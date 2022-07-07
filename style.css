@@ -16,12 +16,30 @@
 	margin: 5px;
 	color: blue;
 }
+
 .header-right {
 	float: right;
 }
 
 .in, .ig, .tweet, .messanger  {
 	color: blue;
+    padding-left: 10px;
+}
+
+.in:hover {
+    color: paleturquoise;
+}
+
+.ig:hover {
+    color: paleturquoise;
+}
+
+.tweet:hover {
+    color: paleturquoise;
+}
+
+.messanger:hover {
+    color: paleturquoise;
 }
 
 .navbar-brand {
@@ -109,10 +127,11 @@
 
 .image-content {
     position: relative;
+    margin-top: -180px;
 }
 
 .image-content h1 {
-    padding-top: 110px; 
+    /* padding-top: 110px;  */
     font-size: 48px;
     line-height: 56px;
     color: #2c4964;
@@ -319,13 +338,13 @@
 	font-size: 18px;
 }
 
-.body6 {
+/* .body6 {
 	display: flex;
-	/* margin-left: -13%;  */
-}
+	margin-left: -13%; 
+} */
 
 .Lorem {
-	font-size: 20px;
+	font-size: 18px;
 }
 
 .Lorem a {
@@ -337,16 +356,28 @@
 	color: #0d6efd;
 }
 
+.desc {
+    margin-left: 85px;
+    /* font-size: 10px; */
+}
+
 .body6 p {
 	font-size: 16px;
 	margin-top: 10px;
 }
 
-.fingerprint {
+.fingerprint, .gift, .atom {
 	margin: 8px 3% 0px 0%;
 	border: 1px solid #0d6efd;
     border-radius: 50%;
+    /* text-align: center; */
+    height: 65px;
+    width: 65px;
     color: #0d6efd;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: 0.5s;
 }
 
 .fingerprint:hover {
@@ -354,10 +385,10 @@
     color: white;
 }
 
-.body7 {
+/* .body7 {
 	display: flex;
-	/* margin-left:-13%;  */
-}
+	margin-left:-13%; 
+} */
 
 .Nemo {
 	font-size: 20px;
@@ -377,22 +408,22 @@
 	margin-top: 10px;
 }
 
-.gift {
+/* .gift {
 	margin: 8px 3% 0px 0%;
 	border: 1px solid #0d6efd;
     border-radius: 50%;
     color: #0d6efd;
-}
+} */
 
 .gift:hover {
     background-color: #0d6efd;
     color: white;
 }
 
-.body8 {
+/* .body8 {
 	display: flex;
-	/* margin-left: -13%;  */
-}
+	margin-left: -13%; 
+} */
 
 .Dine {
 	font-size: 20px;
@@ -412,12 +443,12 @@
 	margin-top: 10px;
 }
 
-.atom {
+/* .atom {
 	margin: 8px 3% 0px 0%;
 	border: 1px solid #0d6efd;
     border-radius: 50%;
     color: #0d6efd;
-}
+} */
 
 .atom:hover {
     background-color: #0d6efd;
@@ -631,10 +662,6 @@
     transition: ease-in-out 0.3s;
 }
 
-.pic a img {
-    transition: ease-in-out 0.3s;
-}
-
 .member:hover img {
     transform: scale(1.1);
 }
@@ -668,6 +695,33 @@
 }
 .title {
 	position: relative;
+}
+
+.mor .icon-close {
+    font-size: 24px;
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+
+.icon-show {
+    display: none;
+}
+
+.mor a.collapsed {
+    color: #343a40;
+}
+
+.mor a.collapsed:hover {
+    color: #1977cc;
+}
+
+.mor a.collapsed .icon-show {
+    display: inline-block;
+}
+
+.mor a.collapsed .icon-close {
+    display: none;
 }
 
 .acc, .acc1, .acc2, .acc3, .acc4 {
@@ -855,3 +909,9 @@ a {
     max-width: 100%;
     height: auto;
 }
+
+.social-links a:hover {
+    background: black;
+    color: #fff;
+    text-decoration: none;
+} 
