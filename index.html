@@ -355,45 +355,51 @@
 					Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.
 				</p>
 			</div>
-			<div class="row m-5 px-4">
-				<div class="col-md-4 p-2 form">
-					<input type="text" class="form-control" placeholder="Your Name" name="name">
-				</div>
-				<div class="col-md-4 p-2 form">
-					<input type="password" class="form-control" placeholder="Your Email" name="email">
-				</div>
-				<div class="col-md-4 p-2 form">
-					<input type="password" class="form-control" placeholder="Your Phone" name="no">
-				</div>
-			</div>
-			<div class="row m-5 px-4">
-				<div class="col-md-4 p-2 form2">
-					<input type="text" class="form-control" placeholder="Appointment Date" name="appoint">
-				</div>
-				<div class="col-md-4 p-2 form2">
-					<select class="form-select">
-						<option>Select Department</option>
-						<option>Department 1</option>
-						<option>Department 2</option>
-						<option>Department 3</option>
-					</select>
-				</div>
-				<div class="col-md-4 p-2 form2">
-					<select class="form-select">
-						<option>Select Doctor</option>
-						<option>Doctor 1</option>
-						<option>Doctor 2</option>
-						<option>Doctor 3</option>
-					</select>
+			<div class="container mt-2">
+				<div class="row">
+					<div class="col-md-4 p-2 form">
+						<input type="text" class="form-control" placeholder="Your Name" name="name">
+					</div>
+					<div class="col-md-4 p-2 form">
+						<input type="password" class="form-control" placeholder="Your Email" name="email">
+					</div>
+					<div class="col-md-4 p-2 form">
+						<input type="password" class="form-control" placeholder="Your Phone" name="no">
+					</div>
 				</div>
 			</div>
-			<div class="row m-5 pt-5 px-4">
-				<div class="col-md-12 p-2 form3">
-					<textarea class="form-control" rows="4" placeholder="Message (Optional)" name="text"></textarea>
+			<div class="container mt-2">
+				<div class="row">
+					<div class="col-md-4 p-2 form2">
+						<input type="text" class="form-control" placeholder="Appointment Date" name="appoint">
+					</div>
+					<div class="col-md-4 p-2 form2">
+						<select class="form-select">
+							<option>Select Department</option>
+							<option>Department 1</option>
+							<option>Department 2</option>
+							<option>Department 3</option>
+						</select>
+					</div>
+					<div class="col-md-4 p-2 form2">
+						<select class="form-select">
+							<option>Select Doctor</option>
+							<option>Doctor 1</option>
+							<option>Doctor 2</option>
+							<option>Doctor 3</option>
+						</select>
+					</div>
+				</div>
+			</div>
+			<div class="container mt-2">
+				<div class="row">
+					<div class="p-2 form3">
+						<textarea class="form-control" rows="5" placeholder="Message (Optional)" name="text"></textarea>
+					</div>
 				</div>
 			</div>
 			<button type="button" class="btn btn-primary text-center rounded-pill mx-auto d-block" href="#"
-				style="padding: 7px 3%; margin: -2% 0% 50px 0%; font-family: arial;">Make an Appointment</button>
+				style="padding: 7px 3%; margin: 1% 0% 50px 0%; font-family: arial; transition: 0.4s;">Make an Appointment</button>
 		</div>		
 	</div>
 	<div id="departments">
@@ -701,92 +707,89 @@
 				</p>
 			</div>
 		</div>
-		<div id="accordion" class="container bg-light mt-4" style="padding: 0 100px;">
-			<div class="card-header border-0 bg-white mor mb-3">
-				<a class="btn" data-bs-toggle="collapse" href="#collapseOne" class="collapse" aria-expanded="false">
-					<h6 style="font-family: arial; font-size: 18px; margin-left: -10%;"><i
-							class="fas fa-question rounded-circle p-1 bg-white"
-							style=" margin-right: 2%; color: #83BCF0; font-size: 12px; border: 1px solid #83BCF0;"></i>Non
-						consectetur a erat nam at lectus urna duis? <i class="fas fa-angle-down icon-show"></i><i class="fas fa angle-up icon-close"></i>
-					</h6>
-				</a>
-				<div id="collapseOne" class="collapse show" data-bs-parent="#accordion">
-					<div class="card-body acc">
-						Feugiat pretium nibh ipsum consequat.
-						Tempus iaculis urna id volutpat lacus laoreet non curabitur gravida.
-						Venenatis lectus magna fringilla urna porttitor rhoncus dolor purus non.
+		<div class="container">
+			<div id="accordion" class="more bg-light mt-4">
+				<div class="card-header border-0 bg-white mor mb-3">
+					<i class="fas fa-question rounded-circle p-1 bg-white" style="color: #83BCF0; font-size: 12px; border: 1px solid #83BCF0;"></i>
+					<a class="btn" data-bs-toggle="collapse" href="#collapseOne" style="margin-left: -1%;">
+						Non consectetur a erat nam at lectus urna duis? 
+						<i class="fas fa-angle-down icon-show"></i>
+						<i class="fas fa angle-up icon-close"></i>
+					</a>	
+					<div id="collapseOne" class="collapse show" data-bs-parent="#accordion">
+						<p class="card-body acc">
+							Feugiat pretium nibh ipsum consequat.
+							Tempus iaculis urna id volutpat lacus laoreet non curabitur gravida.
+							Venenatis lectus magna fringilla urna porttitor rhoncus dolor purus non.
+						</p>
 					</div>
 				</div>
-			</div>
-			<div class="card-header border-0 bg-white mb-3">
-				<a class="collapsed btn" data-bs-toggle="collapse" href="#collapseTwo">
-					<h6 style="font-family: arial; font-size: 18px; margin-left: -10%;"><i
-							class="fas fa-question rounded-circle p-1 bg-white"
-							style=" margin-right: 2%; color: #83BCF0; font-size: 12px; border: 1px solid #83BCF0;"></i>Feugiat
-						scelerisque varius morbi enim nunc?
-					</h6>
-				</a>
-				<div id="collapseTwo" class="collapse" data-bs-parent="#accordion">
-					<div class="card-body acc1">
-						Dolor sit amet consectetur adipiscing elit pellentesque habitant morbi.
-						Id interdum velit laoreet id donec ultrices.
-						Fringilla phasellus faucibus scelerisque eleifend donec pretium.
-						Est pellentesque elit ullamcorper dignissim.
-						Mauris ultrices eros in cursus turpis massa tincidunt dui.
+				<div class="card-header border-0 bg-white mor mb-3" data-aos-delay="100" data-aos="fade-up">
+					<i class="fas fa-question rounded-circle p-1 bg-white" style="color: #83BCF0; font-size: 12px; border: 1px solid #83BCF0;"></i>
+					<a class="collapsed btn" data-bs-toggle="collapse" href="#collapseTwo" style="margin-left: -1%;">
+						Feugiat scelerisque varius morbi enim nunc?
+						<i class="fas fa-angle-down icon-show"></i>
+						<i class="fas fa angle-up icon-close"></i>
+					</a>
+					<div id="collapseTwo" class="collapse" data-bs-parent="#accordion">
+						<p class="card-body acc1">
+							Dolor sit amet consectetur adipiscing elit pellentesque habitant morbi.
+							Id interdum velit laoreet id donec ultrices.
+							Fringilla phasellus faucibus scelerisque eleifend donec pretium.
+							Est pellentesque elit ullamcorper dignissim.
+							Mauris ultrices eros in cursus turpis massa tincidunt dui.
+						</p>
 					</div>
 				</div>
-			</div>
-			<div class="card-header border-0 bg-white mb-3">
-				<a class="collapsed btn" data-bs-toggle="collapse" href="#collapseThree">
-					<h6 style="font-family: arial; font-size: 18px; margin-left: -10%;"><i
-							class="fas fa-question rounded-circle p-1 bg-white"
-							style=" margin-right: 2%; color: #83BCF0; font-size: 12px; border: 1px solid #83BCF0;"></i>Dolor
-						sit amet consectetur adipiscing elit?
-					</h6>
-				</a>
-				<div id="collapseThree" class="collapse" data-bs-parent="#accordion">
-					<div class="card-body acc2">
-						Eleifend mi in nulla posuere sollicitudin aliquam ultrices sagittis orci.
-						Faucibus pulvinar elementum integer enim.
-						Sem nulla pharetra diam sit amet nisl suscipit. Rutrum tellus pellentesque eu tincidunt.
-						Lectus urna duis convallis convallis tellus.
-						Urna molestie at elementum eu facilisis sed odio morbi quis
+				<div class="card-header border-0 bg-white mor mb-3">
+					<i class="fas fa-question rounded-circle p-1 bg-white" style="color: #83BCF0; font-size: 12px; border: 1px solid #83BCF0;"></i>
+					<a class="collapsed btn" data-bs-toggle="collapse" href="#collapseThree" style="margin-left: -1%;">
+						Dolor sit amet consectetur adipiscing elit?
+						<i class="fas fa-angle-down icon-show"></i>
+						<i class="fas fa angle-up icon-close"></i>
+					</a>
+					<div id="collapseThree" class="collapse" data-bs-parent="#accordion">
+						<p class="card-body acc2">
+							Eleifend mi in nulla posuere sollicitudin aliquam ultrices sagittis orci.
+							Faucibus pulvinar elementum integer enim.
+							Sem nulla pharetra diam sit amet nisl suscipit. Rutrum tellus pellentesque eu tincidunt.
+							Lectus urna duis convallis convallis tellus.
+							Urna molestie at elementum eu facilisis sed odio morbi quis
+						</p>
 					</div>
 				</div>
-			</div>
-			<div class="card-header border-0 bg-white mb-3">
-				<a class="collapsed btn" data-bs-toggle="collapse" href="#collapsefour">
-					<h6 style="font-family: arial; font-size: 18px; margin-left: -6%;"><i
-							class="fas fa-question rounded-circle p-1 bg-white"
-							style=" margin-right: 1%; color: #83BCF0; font-size: 12px; border: 1px solid #83BCF0;"></i>Tempus
-						quam pellentesque nec nam aliquam sem et tortor consequat?
-					</h6>
-				</a>
-				<div id="collapsefour" class="collapse" data-bs-parent="#accordion">
-					<div class="card-body acc3">
-						Molestie a iaculis at erat pellentesque adipiscing commodo.
-						Dignissim suspendisse in est ante in.
-						Nunc vel risus commodo viverra maecenas accumsan.
-						Sit amet nisl suscipit adipiscing bibendum est.
-						Purus gravida quis blandit turpis cursus in.
+				<div class="card-header border-0 bg-white mor mb-3">
+					<i class="fas fa-question rounded-circle p-1 bg-white" style="color: #83BCF0; font-size: 12px; border: 1px solid #83BCF0;"></i>
+					<a class="collapsed btn" data-bs-toggle="collapse" href="#collapsefour" style="margin-left: -1%;">
+						Tempus quam pellentesque nec nam aliquam sem et tortor consequat?
+						<i class="fas fa-angle-down icon-show"></i>
+						<i class="fas fa angle-up icon-close"></i>
+					</a>
+					<div id="collapsefour" class="collapse" data-bs-parent="#accordion">
+						<p class="card-body acc3">
+							Molestie a iaculis at erat pellentesque adipiscing commodo.
+							Dignissim suspendisse in est ante in.
+							Nunc vel risus commodo viverra maecenas accumsan.
+							Sit amet nisl suscipit adipiscing bibendum est.
+							Purus gravida quis blandit turpis cursus in.
+						</p>
 					</div>
 				</div>
-			</div>
-			<div class="card-header border-0 bg-white mb-3">
-				<a class="collapsed btn" data-bs-toggle="collapse" href="#collapsefive">
-					<h6 style="font-family: arial; font-size: 18px; margin-left: -5%;"><i
-							class="fas fa-question rounded-circle p-1 bg-white"
-							style=" margin-right: 1%; color: #83BCF0; font-size: 12px; border: 1px solid #83BCF0;"></i>Tortor
-						vitae purus faucibus ornare. Varius vel pharetra vel turpis nunc eget lorem dolor?
-					</h6>
-				</a>
-				<div id="collapsefive" class="collapse" data-bs-parent="#accordion">
-					<div class="card-body acc4">
-						Laoreet sit amet cursus sit amet dictum sit amet justo.
-						Mauris vitae ultricies leo integer malesuada nunc vel.
-						Tincidunt eget nullam non nisi est sit amet.
-						Turpis nunc eget lorem dolor sed.
-						Ut venenatis tellus in metus vulputate eu scelerisque.
+				<div class="card-header border-0 bg-white mor mb-3">
+					<i class="fas fa-question rounded-circle p-1 bg-white" style="color: #83BCF0; font-size: 12px; border: 1px solid #83BCF0;"></i>
+					<a class="collapsed btn" data-bs-toggle="collapse" href="#collapsefive" style="margin-left: -1%;">
+						Tortor vitae purus faucibus ornare. Varius vel pharetra vel turpis nunc eget lorem dolor?
+						<i class="fas fa-angle-down icon-show"></i>
+						<i class="fas fa angle-up icon-close"></i>
+					</a>
+					<div id="collapsefive" class="collapse border-0" data-bs-parent="#accordion">
+						<p class="card-body acc4">
+							Laoreet sit amet cursus sit amet dictum sit amet justo.
+							Mauris vitae ultricies leo integer malesuada nunc vel.
+							Tincidunt eget nullam non nisi est sit amet.
+							Turpis nunc eget lorem dolor sed.
+							Ut venenatis tellus in metus vulputate eu scelerisque.
+						</p>
 					</div>
 				</div>
 			</div>
@@ -947,42 +950,42 @@
 	<div class="container-fluid">
 		<div class="row">
 		  	<div class="col-lg-3 col-md-4 p-1 member">
-				<a href="img/gallery/gallery-1.jpg" class="glightbox pic">
+				<a href="img/gallery/gallery-1.jpg" class="glightbox gallery-item">
 					<img src="img/gallery/gallery-1.jpg" alt="image" class="img-fluid" />
 				</a>
 		  	</div>
 		 	 <div class="col-lg-3 col-md-4 p-1">
-				<a href="img/gallery/gallery-2.jpg" class="glightbox">
+				<a href="img/gallery/gallery-2.jpg" class="glightbox gallery-item">
 					<img src="img/gallery/gallery-2.jpg" alt="image" class="img-fluid" />
 				</a>
 		  	</div>
 		 	 <div class="col-lg-3 col-md-4 p-1">
-				<a href="img/gallery/gallery-3.jpg" class="glightbox">
+				<a href="img/gallery/gallery-3.jpg" class="glightbox gallery-item">
 					<img src="img/gallery/gallery-3.jpg" alt="image" class="img-fluid" />
 				</a>
 		  	</div>
 		  	<div class="col-lg-3 col-md-4 p-1">
-				<a href="img/gallery/gallery-4.jpg" class="glightbox">
+				<a href="img/gallery/gallery-4.jpg" class="glightbox gallery-item">
 					<img src="img/gallery/gallery-4.jpg" alt="image" class="img-fluid" />
 				</a>
 		  	</div>
 		  	<div class="col-lg-3 col-md-4 p-1">
-				<a href="img/gallery/gallery-5.jpg" class="glightbox">
+				<a href="img/gallery/gallery-5.jpg" class="glightbox gallery-item">
 					<img src="img/gallery/gallery-5.jpg" alt="image" class="img-fluid" />
 				</a>
 		 	</div>
 		  	<div class="col-lg-3 col-md-4 p-1">
-				<a href="img/gallery/gallery-6.jpg" class="glightbox">
+				<a href="img/gallery/gallery-6.jpg" class="glightbox gallery-item">
 					<img src="img/gallery/gallery-6.jpg" alt="image" class="img-fluid" />
 				</a>
 		 	</div>
 		  	<div class="col-lg-3 col-md-4 p-1">
-				<a href="img/gallery/gallery-7.jpg" class="glightbox">
+				<a href="img/gallery/gallery-7.jpg" class="glightbox gallery-item">
 					<img src="img/gallery/gallery-7.jpg" alt="image" class="img-fluid" />
 				</a>
 		  	</div>
 		  	<div class="col-lg-3 col-md-4 p-1">
-				<a href="img/gallery/gallery-8.jpg" class="glightbox">
+				<a href="img/gallery/gallery-8.jpg" class="glightbox gallery-item">
 					<img src="img/gallery/gallery-8.jpg" alt="image" class="img-fluid" />
 				</a>
 		  	</div>

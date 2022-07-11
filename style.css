@@ -247,7 +247,7 @@
 .video-box {
     background: url("../img/about.jpg") center center no-repeat;
     background-size: cover;
-    min-height: 640px;
+    height: 640px;
     position: relative;
 }
 
@@ -588,17 +588,17 @@
 }
 
 
-.form {
+/* .form {
 	margin-top: -3%;
 }
 
 .form2 {
 	margin-top: -4%;
-}
+} */
 
-.form3 {
+/* .form3 {
 	margin-top: -8%;
-}
+} */
 
 #departments h2::before { 
     content: "";
@@ -708,6 +708,13 @@
     display: none;
 }
 
+.more a {
+    /* display: block; */
+    position: relative;
+    font-family: "Poppins", sans-serif;
+    outline: none;
+}
+
 .mor a.collapsed {
     color: #343a40;
 }
@@ -725,7 +732,8 @@
 }
 
 .acc, .acc1, .acc2, .acc3, .acc4 {
-	font-size: 18px;
+	font-size: 17px;
+    padding: 10px 0 0 0;
 }
 
 .department .nav-link {
@@ -765,6 +773,14 @@
 }
 .title {
 	position: relative;
+}
+
+.gallery-item img {
+    transition: all ease-in-out 0.4s;
+}
+
+.gallery-item:hover img {
+    transform: scale(1.1);
 }
 
 #contact h2::before { 
@@ -911,7 +927,7 @@ a {
 }
 
 .social-links a:hover {
-    background: black;
+    background: #1c84e3;
     color: #fff;
     text-decoration: none;
 } 
